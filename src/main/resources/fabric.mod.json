@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "snowtracks",
+	"version": "${version}",
+	"name": "Snow Tracks",
+	"description": "Walk through snow and leave footprints behind. They fade away, other players and animals leave tracks too, and sand, mud and powder snow show prints of their own. Client only: works on any server.",
+	"authors": [
+		"cristidoesspam"
+	],
+	"license": "MIT",
+	"icon": "assets/snowtracks/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.snowtracks.client.SnowTracksClient"
+		],
+		"modmenu": [
+			"dev.snowtracks.client.SnowTracksModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": ">=0.163.0"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

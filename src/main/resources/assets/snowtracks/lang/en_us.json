@@ -1,0 +1,31 @@
+{
+	"snowtracks.screen.title": "Snow Tracks Settings",
+
+	"key.category.snowtracks.snowtracks": "Snow Tracks",
+	"key.snowtracks.settings": "Open Snow Tracks settings",
+	"key.snowtracks.toggle": "Toggle Snow Tracks",
+	"snowtracks.toggle.on": "Snow Tracks: ON",
+	"snowtracks.toggle.off": "Snow Tracks: OFF",
+
+	"snowtracks.option.seconds.value": "%s: %ss",
+	"snowtracks.option.percent.value": "%s: %s%%",
+	"snowtracks.option.number.value": "%s: %s",
+
+	"snowtracks.option.enabled": "Snow Tracks",
+	"snowtracks.option.enabled.tooltip": "Master switch. When off, no prints are made and any that exist disappear.",
+
+	"snowtracks.option.lifetime": "Print Lifetime",
+	"snowtracks.option.lifetime.tooltip": "How many seconds a footprint in snow lasts before it has filled in. Fresh snowfall wipes prints about four times faster. Mud keeps its prints longer and powder snow loses them sooner.",
+
+	"snowtracks.option.darkness": "Darkness",
+	"snowtracks.option.darkness.tooltip": "How strongly prints show against the ground. Lower is subtler.",
+
+	"snowtracks.option.other_players": "Other Players",
+	"snowtracks.option.other_players.tooltip": "Show the footprints of other players, and the grooves they leave when they pull something on a lead.",
+
+	"snowtracks.option.mobs": "Mob Tracks",
+	"snowtracks.option.mobs.tooltip": "Show paws, hooves, bird feet and rabbit hops from animals.",
+
+	"snowtracks.option.max_prints": "Max Prints",
+	"snowtracks.option.max_prints.tooltip": "The most prints shown at once. When it is reached the oldest disappear first, and animals give way before people. Lower it if the game slows down."
+}
